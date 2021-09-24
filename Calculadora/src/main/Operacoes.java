@@ -11,23 +11,23 @@ package main;
  */
 public class Operacoes {
     
-    public float soma (float num1, float num2){
-        float res = num1 + num2;
+    public double soma (double num1, double num2){
+        double res = num1 + num2;
         return res;
     }
     
-    public float subtr (float num1, float num2){
-        float res = num1 - num2;
+    public double subtr (double num1, double num2){
+        double res = num1 - num2;
         return res;
     }
     
-    public float multli (float num1, float num2){
-        float res = num1 * num2;
+    public double multli (double num1, double num2){
+        double res = num1 * num2;
         return res;
     }
     
-    public float div (float num1, float num2){
-        float res = num1 / num2;
+    public double div (double num1, double num2){
+        double res = num1 / num2;
         return res;
     }
     
