@@ -49,7 +49,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton12" min="-2" pref="48" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton10" min="-2" pref="48" max="-2" attributes="0"/>
+                      <Component id="cut" min="-2" pref="48" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jdiv" min="-2" pref="48" max="-2" attributes="0"/>
                   </Group>
@@ -127,8 +127,8 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="jButton10" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="cut" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton11" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                       <Component id="jButton12" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                   </Group>
@@ -142,11 +142,13 @@
                   <Component id="jmult" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="j6" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="j5" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="j4" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jsub" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="j6" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="j5" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="j4" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -298,7 +300,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j3ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton10">
+    <Component class="javax.swing.JButton" name="cut">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="99" type="rgb"/>
@@ -309,7 +311,7 @@
         <Property name="text" type="java.lang.String" value="&#xab;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cutActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton11">
